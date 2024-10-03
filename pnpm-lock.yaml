@@ -478,8 +478,8 @@ importers:
         specifier: ^1.5.0
         version: 1.5.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       tailwind-merge:
-        specifier: ^2.5.2
-        version: 2.5.2
+        specifier: ^2.5.3
+        version: 2.5.3
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -553,7 +553,7 @@ importers:
         version: 7.37.1(eslint@9.9.0(jiti@2.1.2))
       eslint-plugin-react-hooks:
         specifier: rc
-        version: 5.1.0-rc-459fd418-20241001(eslint@9.9.0(jiti@2.1.2))
+        version: 5.1.0-rc-0751fac7-20241002(eslint@9.9.0(jiti@2.1.2))
       eslint-plugin-turbo:
         specifier: ^2.1.3
         version: 2.1.3(eslint@9.9.0(jiti@2.1.2))
@@ -4628,8 +4628,8 @@ packages:
     peerDependencies:
       eslint: ^3 || ^4 || ^5 || ^6 || ^7 || ^8 || ^9
 
-  eslint-plugin-react-hooks@5.1.0-rc-459fd418-20241001:
-    resolution: {integrity: sha512-vBUzji1JDwLxFAsmVtdbWQBo6LMnN7J2ZpDrGWo/ve4NnJGDeNFQOGqMJM1j0uDzLC1/sgQcFEOHofb8BsvJUQ==}
+  eslint-plugin-react-hooks@5.1.0-rc-0751fac7-20241002:
+    resolution: {integrity: sha512-9CEhaksLMmjRIpLdm5xazaCvDYsLZ0OKgCBQTyuiP4LvtB1wiQVBVGgQVWF1iC2FZmilFsefdmxUJb0nQl80Yg==}
     engines: {node: '>=10'}
     peerDependencies:
       eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0 || ^9.0.0
@@ -7691,8 +7691,8 @@ packages:
     resolution: {integrity: sha512-ulAk51I9UVUyJgxlv9M6lFot2WP3e7t8Kz9+IS6D4rVba1tR9kON+Ey69f+1R4Q8cd45Lod6a4IcJIxnzGc/zA==}
     engines: {node: '>=18'}
 
-  tailwind-merge@2.5.2:
-    resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
+  tailwind-merge@2.5.3:
+    resolution: {integrity: sha512-d9ZolCAIzom1nf/5p4LdD5zvjmgSxY0BGgdSvmXIoMYAiPdAW/dSpP7joCDYFY7r/HkEa2qmPtkgsu0xjQeQtw==}
 
   tailwindcss-animate@1.0.7:
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
@@ -13083,7 +13083,7 @@ snapshots:
       safe-regex-test: 1.0.3
       string.prototype.includes: 2.0.0
 
-  eslint-plugin-react-hooks@5.1.0-rc-459fd418-20241001(eslint@9.9.0(jiti@2.1.2)):
+  eslint-plugin-react-hooks@5.1.0-rc-0751fac7-20241002(eslint@9.9.0(jiti@2.1.2)):
     dependencies:
       eslint: 9.9.0(jiti@2.1.2)
 
@@ -16603,7 +16603,7 @@ snapshots:
 
   system-architecture@0.1.0: {}
 
-  tailwind-merge@2.5.2: {}
+  tailwind-merge@2.5.3: {}
 
   tailwindcss-animate@1.0.7(tailwindcss@3.4.10(ts-node@10.9.2(@types/node@22.3.0)(typescript@5.5.4))):
     dependencies:
