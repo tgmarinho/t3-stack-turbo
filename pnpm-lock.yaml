@@ -110,8 +110,8 @@ importers:
         specifier: ^0.0.0
         version: 0.0.0(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))
       '@expo/metro-config':
-        specifier: ^0.19.1
-        version: 0.19.1
+        specifier: ^0.19.2
+        version: 0.19.2
       '@shopify/flash-list':
         specifier: 1.7.2
         version: 1.7.2(@babel/runtime@7.26.0)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@react-native-community/cli-server-api@14.1.0(bufferutil@4.0.8))(@types/react@18.3.3)(bufferutil@4.0.8)(react@18.3.1))(react@18.3.1)
@@ -2107,8 +2107,8 @@ packages:
   '@expo/metro-config@0.18.11':
     resolution: {integrity: sha512-/uOq55VbSf9yMbUO1BudkUM2SsGW1c5hr9BnhIqYqcsFv0Jp5D3DtJ4rljDKaUeNLbwr6m7pqIrkSMq5NrYf4Q==}
 
-  '@expo/metro-config@0.19.1':
-    resolution: {integrity: sha512-PK5Tb/KY/0oyJu8Ro1TrMSfpxw6ZNLwazXBfUgpGqiyCDgZSEd92s897er9b7rg8465UyvkdA4m5vL4nzF5z6Q==}
+  '@expo/metro-config@0.19.2':
+    resolution: {integrity: sha512-n9Q+ERhj0nUciKnDgiCWuys6cMLH2KI0Ppw0SLbkHiqLIK60Y2KiGuyKnj5Rna2x4m83hrGZmAEf/+PpvQd9lA==}
 
   '@expo/metro-runtime@3.2.3':
     resolution: {integrity: sha512-v5ji+fAGi7B9YavrxvekuF8gXEV/5fz0+PhaED5AaFDnbGB4IJIbpaiqK9nqZV1axjGZNQSw6Q8TsnFetCR3bQ==}
@@ -10180,7 +10180,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@expo/metro-config@0.19.1':
+  '@expo/metro-config@0.19.2':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/generator': 7.26.2
