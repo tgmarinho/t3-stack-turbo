@@ -31,8 +31,8 @@ catalogs:
       specifier: ^5.7.3
       version: 5.7.3
     zod:
-      specifier: ^3.23.8
-      version: 3.23.8
+      specifier: ^3.24.1
+      version: 3.24.1
   react18:
     '@types/react':
       specifier: ^18.3.18
@@ -247,7 +247,7 @@ importers:
         version: link:../../packages/validators
       '@t3-oss/env-nextjs':
         specifier: ^0.11.1
-        version: 0.11.1(typescript@5.7.3)(zod@3.23.8)
+        version: 0.11.1(typescript@5.7.3)(zod@3.24.1)
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.66.0(react@18.3.1)
@@ -277,7 +277,7 @@ importers:
         version: 2.2.2
       zod:
         specifier: 'catalog:'
-        version: 3.23.8
+        version: 3.24.1
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -338,7 +338,7 @@ importers:
         version: 2.2.2
       zod:
         specifier: 'catalog:'
-        version: 3.23.8
+        version: 3.24.1
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -372,7 +372,7 @@ importers:
         version: 1.7.4
       '@t3-oss/env-nextjs':
         specifier: ^0.11.1
-        version: 0.11.1(typescript@5.7.3)(zod@3.23.8)
+        version: 0.11.1(typescript@5.7.3)(zod@3.24.1)
       next:
         specifier: ^14.2.23
         version: 14.2.23(@opentelemetry/api@1.9.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -387,7 +387,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       zod:
         specifier: 'catalog:'
-        version: 3.23.8
+        version: 3.24.1
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -418,10 +418,10 @@ importers:
         version: 0.39.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.18)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1)
       drizzle-zod:
         specifier: ^0.7.0
-        version: 0.7.0(drizzle-orm@0.39.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.18)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(zod@3.23.8)
+        version: 0.7.0(drizzle-orm@0.39.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.18)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(zod@3.24.1)
       zod:
         specifier: 'catalog:'
-        version: 3.23.8
+        version: 3.24.1
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -507,13 +507,13 @@ importers:
         version: 5.7.3
       zod:
         specifier: 'catalog:'
-        version: 3.23.8
+        version: 3.24.1
 
   packages/validators:
     dependencies:
       zod:
         specifier: 'catalog:'
-        version: 3.23.8
+        version: 3.24.1
     devDependencies:
       '@acme/eslint-config':
         specifier: workspace:*
@@ -8357,8 +8357,8 @@ packages:
     resolution: {integrity: sha512-zK7YHHz4ZXpW89AHXUPbQVGKI7uvkd3hzusTdotCg1UxyaVtg0zFJSTfW/Dq5f7OBBVnq6cZIaC8Ti4hb6dtCA==}
     engines: {node: '>= 14'}
 
-  zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+  zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
 snapshots:
 
@@ -11093,16 +11093,16 @@ snapshots:
       '@swc/counter': 0.1.3
       tslib: 2.6.3
 
-  '@t3-oss/env-core@0.11.1(typescript@5.7.3)(zod@3.23.8)':
+  '@t3-oss/env-core@0.11.1(typescript@5.7.3)(zod@3.24.1)':
     dependencies:
-      zod: 3.23.8
+      zod: 3.24.1
     optionalDependencies:
       typescript: 5.7.3
 
-  '@t3-oss/env-nextjs@0.11.1(typescript@5.7.3)(zod@3.23.8)':
+  '@t3-oss/env-nextjs@0.11.1(typescript@5.7.3)(zod@3.24.1)':
     dependencies:
-      '@t3-oss/env-core': 0.11.1(typescript@5.7.3)(zod@3.23.8)
-      zod: 3.23.8
+      '@t3-oss/env-core': 0.11.1(typescript@5.7.3)(zod@3.24.1)
+      zod: 3.24.1
     optionalDependencies:
       typescript: 5.7.3
 
@@ -12493,10 +12493,10 @@ snapshots:
       postgres: 3.4.4
       react: 18.3.1
 
-  drizzle-zod@0.7.0(drizzle-orm@0.39.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.18)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(zod@3.23.8):
+  drizzle-zod@0.7.0(drizzle-orm@0.39.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.18)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1))(zod@3.24.1):
     dependencies:
       drizzle-orm: 0.39.1(@libsql/client-wasm@0.14.0)(@opentelemetry/api@1.9.0)(@planetscale/database@1.19.0)(@types/pg@8.11.6)(@types/react@18.3.18)(@vercel/postgres@0.10.0(utf-8-validate@6.0.4))(mysql2@3.11.0)(postgres@3.4.4)(react@18.3.1)
-      zod: 3.23.8
+      zod: 3.24.1
 
   dunder-proto@1.0.1:
     dependencies:
@@ -17251,4 +17251,4 @@ snapshots:
       compress-commons: 6.0.2
       readable-stream: 4.5.2
 
-  zod@3.23.8: {}
+  zod@3.24.1: {}
