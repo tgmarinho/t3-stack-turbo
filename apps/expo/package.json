@@ -49,7 +49,7 @@
     "@acme/tailwind-config": "workspace:*",
     "@acme/tsconfig": "workspace:*",
     "@babel/core": "^7.27.1",
-    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
     "@babel/runtime": "^7.27.1",
     "@types/babel__core": "^7.20.5",
     "@types/react": "catalog:react18",
