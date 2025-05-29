@@ -10,14 +10,14 @@ catalogs:
       specifier: ^5.77.2
       version: 5.77.2
     '@trpc/client':
-      specifier: ^11.1.3
-      version: 11.1.3
+      specifier: ^11.1.4
+      version: 11.1.4
     '@trpc/react-query':
-      specifier: ^11.1.3
-      version: 11.1.3
+      specifier: ^11.1.4
+      version: 11.1.4
     '@trpc/server':
-      specifier: ^11.1.3
-      version: 11.1.3
+      specifier: ^11.1.4
+      version: 11.1.4
     eslint:
       specifier: ^9.27.0
       version: 9.27.0
@@ -120,13 +120,13 @@ importers:
         version: 5.77.2(react@19.1.0)
       '@trpc/client':
         specifier: 'catalog:'
-        version: 11.1.3(@trpc/server@11.1.3(typescript@5.8.3))(typescript@5.8.3)
+        version: 11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3)
       '@trpc/react-query':
         specifier: 'catalog:'
-        version: 11.1.3(@tanstack/react-query@5.77.2(react@19.1.0))(@trpc/client@11.1.3(@trpc/server@11.1.3(typescript@5.8.3))(typescript@5.8.3))(@trpc/server@11.1.3(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 11.1.4(@tanstack/react-query@5.77.2(react@19.1.0))(@trpc/client@11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3))(@trpc/server@11.1.4(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@trpc/server':
         specifier: 'catalog:'
-        version: 11.1.3(typescript@5.8.3)
+        version: 11.1.4(typescript@5.8.3)
       expo:
         specifier: ~53.0.9
         version: 53.0.9(@babel/core@7.27.3)(@expo/metro-runtime@5.0.4(react-native@0.79.2(@babel/core@7.27.3)(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.1.0)))(bufferutil@4.0.8)(graphql@15.8.0)(react-native@0.79.2(@babel/core@7.27.3)(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.1.0))(react@19.1.0)
@@ -253,13 +253,13 @@ importers:
         version: 5.77.2(react@19.1.0)
       '@trpc/client':
         specifier: 'catalog:'
-        version: 11.1.3(@trpc/server@11.1.3(typescript@5.8.3))(typescript@5.8.3)
+        version: 11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3)
       '@trpc/react-query':
         specifier: 'catalog:'
-        version: 11.1.3(@tanstack/react-query@5.77.2(react@19.1.0))(@trpc/client@11.1.3(@trpc/server@11.1.3(typescript@5.8.3))(typescript@5.8.3))(@trpc/server@11.1.3(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 11.1.4(@tanstack/react-query@5.77.2(react@19.1.0))(@trpc/client@11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3))(@trpc/server@11.1.4(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@trpc/server':
         specifier: 'catalog:'
-        version: 11.1.3(typescript@5.8.3)
+        version: 11.1.4(typescript@5.8.3)
       geist:
         specifier: ^1.4.2
         version: 1.4.2(next@14.2.29(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
@@ -332,7 +332,7 @@ importers:
         version: link:../validators
       '@trpc/server':
         specifier: 'catalog:'
-        version: 11.1.3(typescript@5.8.3)
+        version: 11.1.4(typescript@5.8.3)
       superjson:
         specifier: 2.2.2
         version: 2.2.2
@@ -3120,24 +3120,24 @@ packages:
   '@tootallnate/quickjs-emscripten@0.23.0':
     resolution: {integrity: sha512-C5Mc6rdnsaJDjO3UpGW/CQTHtCKaYlScZTly4JIu97Jxo/odCiH0ITnDXSJPTOrEKk/ycSZ0AOgTmkDtkOsvIA==}
 
-  '@trpc/client@11.1.3':
-    resolution: {integrity: sha512-uOv84eN84v3xIHtHf7Myj7LB++gDMJMCyeFrdZj442k2mvgPKjCoAmR+Si0EmYzB+RMCpSe3xN2nfEckkrEmjg==}
+  '@trpc/client@11.1.4':
+    resolution: {integrity: sha512-QDaIdwhZlHKMhDAr5m4dJNAYkX4ydo63Up0M01mGcdpnOOmGlvGMRWzdVSLIvGc1JasPSvC15RsgrjMzXpElzw==}
     peerDependencies:
-      '@trpc/server': 11.1.3
+      '@trpc/server': 11.1.4
       typescript: '>=5.7.2'
 
-  '@trpc/react-query@11.1.3':
-    resolution: {integrity: sha512-omXqVh5Cdv0M50JGguqjlcrdeTOIhtJItpsHwTT1GYZ5FMCLkVt1RC/E70XTU9oj3KUZ/dv0lDdaTGpZzcIxCw==}
+  '@trpc/react-query@11.1.4':
+    resolution: {integrity: sha512-vMwE3Jif7rJcrqWsQ1aKn43xpmwastYPPftMM5CgdcmF9IuvigH/NTLdWRfSzKtbXmNE6wLI45gU1R77uF86yA==}
     peerDependencies:
       '@tanstack/react-query': ^5.67.1
-      '@trpc/client': 11.1.3
-      '@trpc/server': 11.1.3
+      '@trpc/client': 11.1.4
+      '@trpc/server': 11.1.4
       react: '>=18.2.0'
       react-dom: '>=18.2.0'
       typescript: '>=5.7.2'
 
-  '@trpc/server@11.1.3':
-    resolution: {integrity: sha512-Q948756+ADyJIWQiS0g5K6nbOea87ykFZ2Wc93Sx1I8kNa+E1yMIRizAaZEiiKCJS2xzzrE9G4shHBtTTrNYdw==}
+  '@trpc/server@11.1.4':
+    resolution: {integrity: sha512-X3TSLwQQh5+zi+yY7BnnmUUwVNdeBj3BAt580sAJ+Qd5PvDhz1gSNHGOAlOLulCFn6g/JHf8n+DbnPF/Gb63SA==}
     peerDependencies:
       typescript: '>=5.7.2'
 
@@ -11393,21 +11393,21 @@ snapshots:
 
   '@tootallnate/quickjs-emscripten@0.23.0': {}
 
-  '@trpc/client@11.1.3(@trpc/server@11.1.3(typescript@5.8.3))(typescript@5.8.3)':
+  '@trpc/client@11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3)':
     dependencies:
-      '@trpc/server': 11.1.3(typescript@5.8.3)
+      '@trpc/server': 11.1.4(typescript@5.8.3)
       typescript: 5.8.3
 
-  '@trpc/react-query@11.1.3(@tanstack/react-query@5.77.2(react@19.1.0))(@trpc/client@11.1.3(@trpc/server@11.1.3(typescript@5.8.3))(typescript@5.8.3))(@trpc/server@11.1.3(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
+  '@trpc/react-query@11.1.4(@tanstack/react-query@5.77.2(react@19.1.0))(@trpc/client@11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3))(@trpc/server@11.1.4(typescript@5.8.3))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
     dependencies:
       '@tanstack/react-query': 5.77.2(react@19.1.0)
-      '@trpc/client': 11.1.3(@trpc/server@11.1.3(typescript@5.8.3))(typescript@5.8.3)
-      '@trpc/server': 11.1.3(typescript@5.8.3)
+      '@trpc/client': 11.1.4(@trpc/server@11.1.4(typescript@5.8.3))(typescript@5.8.3)
+      '@trpc/server': 11.1.4(typescript@5.8.3)
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
       typescript: 5.8.3
 
-  '@trpc/server@11.1.3(typescript@5.8.3)':
+  '@trpc/server@11.1.4(typescript@5.8.3)':
     dependencies:
       typescript: 5.8.3
 
