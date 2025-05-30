@@ -17,7 +17,7 @@
     "@acme/prettier-config": "workspace:*",
     "@acme/tailwind-config": "workspace:*",
     "@acme/tsconfig": "workspace:*",
-    "@types/node": "^22.15.24",
+    "@types/node": "^22.15.26",
     "eslint": "catalog:",
     "h3": "^1.15.3",
     "nitropack": "^2.11.12",
