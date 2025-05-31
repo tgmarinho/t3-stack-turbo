@@ -113,8 +113,8 @@ importers:
         specifier: ^0.20.14
         version: 0.20.14
       '@shopify/flash-list':
-        specifier: 1.8.1
-        version: 1.8.1(@babel/runtime@7.27.4)(react-native@0.79.2(@babel/core@7.27.4)(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.1.0))(react@19.1.0)
+        specifier: 1.8.2
+        version: 1.8.2(@babel/runtime@7.27.4)(react-native@0.79.2(@babel/core@7.27.4)(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.1.0))(react@19.1.0)
       '@tanstack/react-query':
         specifier: 'catalog:'
         version: 5.79.0(react@19.1.0)
@@ -2985,8 +2985,8 @@ packages:
   '@rtsao/scc@1.1.0':
     resolution: {integrity: sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==}
 
-  '@shopify/flash-list@1.8.1':
-    resolution: {integrity: sha512-V4DKqH9iFvM7haP6CETbi2RDMlG54ibtFNewrt+dVIFb+NH2WjgNeim3qui4AJj6bcGh/iraD9CaVfvW8nIrag==}
+  '@shopify/flash-list@1.8.2':
+    resolution: {integrity: sha512-CJRkaMkwbDJtOyO9RgjXIXDKgIpgXPt2fncK7zcNvTPbvZHWnXcnS7Avl+TzAtvpPThV+fl3oxjnOYpszMil2A==}
     peerDependencies:
       '@babel/runtime': '*'
       react: '*'
@@ -11167,7 +11167,7 @@ snapshots:
 
   '@rtsao/scc@1.1.0': {}
 
-  '@shopify/flash-list@1.8.1(@babel/runtime@7.27.4)(react-native@0.79.2(@babel/core@7.27.4)(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.1.0))(react@19.1.0)':
+  '@shopify/flash-list@1.8.2(@babel/runtime@7.27.4)(react-native@0.79.2(@babel/core@7.27.4)(@types/react@19.1.6)(bufferutil@4.0.8)(react@19.1.0))(react@19.1.0)':
     dependencies:
       '@babel/runtime': 7.27.4
       react: 19.1.0
@@ -14828,7 +14828,7 @@ snapshots:
   metro-source-map@0.82.1:
     dependencies:
       '@babel/traverse': 7.27.3
-      '@babel/traverse--for-generate-function-map': '@babel/traverse@7.27.3'
+      '@babel/traverse--for-generate-function-map': '@babel/traverse@7.27.4'
       '@babel/types': 7.27.3
       flow-enums-runtime: 0.0.6
       invariant: 2.2.4
