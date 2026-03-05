@@ -9,7 +9,7 @@ catalog:
   "@trpc/react-query": ^11.3.1
   "@trpc/server": ^11.3.1
   eslint: ^9.39.2
-  prettier: ^3.5.3
+  prettier: ^3.8.1
   tailwindcss: ^3.4.19
   typescript: ^5.8.3
   zod: ^3.25.76
