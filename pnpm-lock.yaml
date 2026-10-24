@@ -452,7 +452,7 @@ importers:
     dependencies:
       '@hookform/resolvers':
         specifier: ^4.0.0
-        version: 4.0.0(react-hook-form@7.54.2(react@19.1.0))
+        version: 4.0.0(react-hook-form@7.91.0(@types/react@19.1.8)(react@19.1.0))
       '@radix-ui/react-dropdown-menu':
         specifier: ^2.1.16
         version: 2.1.16(@types/react-dom@19.1.6(@types/react@19.1.8))(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -472,8 +472,8 @@ importers:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react-hook-form:
-        specifier: ^7.54.2
-        version: 7.54.2(react@19.1.0)
+        specifier: ^7.91.0
+        version: 7.91.0(@types/react@19.1.8)(react@19.1.0)
       sonner:
         specifier: ^2.0.8
         version: 2.0.8(@types/react@19.1.8)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -7114,11 +7114,15 @@ packages:
     peerDependencies:
       react: '>=17.0.0'
 
-  react-hook-form@7.54.2:
-    resolution: {integrity: sha512-eHpAUgUjWbZocoQYUHposymRb4ZP6d0uwUnooL2uOybA9/3tPUvoAKqEWK1WaSiTxxOfTpffNZP7QwlnM3/gEg==}
+  react-hook-form@7.91.0:
+    resolution: {integrity: sha512-5BEBUnCBwa28AFXYTYmOaB/+CSpJ/+CWVASHEvIGUzFdHyUiPHeRhG7r5hOZ8nZi0yP7pbHdFNXO/p31EKTJFQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
+      '@types/react': '*'
       react: ^16.8.0 || ^17 || ^18 || ^19
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
 
   react-is@16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -10683,9 +10687,9 @@ snapshots:
 
   '@floating-ui/utils@0.2.7': {}
 
-  '@hookform/resolvers@4.0.0(react-hook-form@7.54.2(react@19.1.0))':
+  '@hookform/resolvers@4.0.0(react-hook-form@7.91.0(@types/react@19.1.8)(react@19.1.0))':
     dependencies:
-      react-hook-form: 7.54.2(react@19.1.0)
+      react-hook-form: 7.91.0(@types/react@19.1.8)(react@19.1.0)
 
   '@humanfs/core@0.19.1': {}
 
@@ -16087,9 +16091,11 @@ snapshots:
     dependencies:
       react: 19.1.0
 
-  react-hook-form@7.54.2(react@19.1.0):
+  react-hook-form@7.91.0(@types/react@19.1.8)(react@19.1.0):
     dependencies:
       react: 19.1.0
+    optionalDependencies:
+      '@types/react': 19.1.8
 
   react-is@16.13.1: {}
 
